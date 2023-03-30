@@ -20,11 +20,11 @@
 
 @media (max-width: 992px) {
   body {
-    background-color: aqua; } }
+    background-color: red; } }
 
 @media (max-width: 762px) {
   body {
-    background-color: steelblue; }
+    background-color: red; }
   .imagenIncreibleClase {
     width: 200px;
     height: 200px; } }

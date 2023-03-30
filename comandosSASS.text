@@ -1,0 +1,9 @@
+Pasos SCSS:
+1-Instalamos node
+2-Creamos las carpetas y los archivos vacios (FORMATO ENTREGA PROXIMO DESAFIO Y TP FINAL)
+3-Instalamos en la consola de VSC nodemon y node-sass
+4-Ponemos el script para ejecutar SASS
+
+
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css --outPutStyle expanded",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""

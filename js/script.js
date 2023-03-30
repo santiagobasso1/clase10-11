@@ -5,7 +5,7 @@
 //Filtra los elementos del array devolviendo los que cumplen con una condición (similar al find pero devuelve todos no solo el primero)
 const arrayPalabra = ["socotroco", "saracatunga", "palabrita", "argentinos", "Uruguay", "no", "si"];
 const resultadoFilter = arrayPalabra.filter(palabra => palabra.length > 7);
-//console.log(resultadoFilter);
+console.log(resultadoFilter);
 
 //MAP
 //Hace algo con cada uno de los elementos del array
@@ -13,7 +13,7 @@ const arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrayNumerosx2 = arrayNumeros.map(function (x) {
     return x * 2;
 })
-//console.log(arrayNumerosx2)
+console.log(arrayNumerosx2)
 
 //REDUCER
 //Realizamos una función que realice la operación que queremos
