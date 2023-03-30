@@ -1,0 +1,27 @@
+@media (max-width: $tamanioDesktopLarge) { 
+    body{
+        background-color: $colorPrincipal;
+    }
+}
+
+@media  (max-width: 1200px) { 
+    body{
+        background-color: $colorSecundario;
+    }
+}
+
+@media  (max-width: 992px) { 
+    body{
+        background-color: aqua;
+    }
+}
+
+@media  (max-width: 762px) { 
+    body{
+        background-color: steelblue;
+    }
+    .imagenIncreibleClase{
+        width: 200px;
+        height: 200px;
+    }
+}

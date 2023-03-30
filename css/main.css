@@ -1,0 +1,30 @@
+.divIncreible {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px; }
+
+.imagenIncreibleClase {
+  height: 400px;
+  width: 400px; }
+
+.claseEJEMPLO {
+  background-color: black; }
+
+@media (max-width: 1440px) {
+  body {
+    background-color: red; } }
+
+@media (max-width: 1200px) {
+  body {
+    background-color: blue; } }
+
+@media (max-width: 992px) {
+  body {
+    background-color: aqua; } }
+
+@media (max-width: 762px) {
+  body {
+    background-color: steelblue; }
+  .imagenIncreibleClase {
+    width: 200px;
+    height: 200px; } }
